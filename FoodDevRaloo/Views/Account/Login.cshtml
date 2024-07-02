@@ -1,0 +1,75 @@
+﻿@model FoodDevRaloo.Models.LoginViewModel
+
+@{
+    ViewData["Title"] = "Login Page";
+}
+
+<div class="main">
+    <!--main-highlight-->
+    <div class="main-highlight">
+        <!--title section and arrow-->
+        <div class="main-header">
+            <h2 class="main-title">Recommendations</h2>
+            <div class="main-arrow">
+                <ion-icon class="back" name="chevron-back-circle-outline"></ion-icon>
+                <ion-icon class="next" name="chevron-forward-circle-outline"></ion-icon>
+            </div>
+        </div>
+        <!--highlight menu-->
+        <div class="highlight-wrapper">
+            <div class="highlight-card">
+                <img class="highlight-img" src="~/images/pancakes.jpg">
+                <div class="highlight-desc">
+                    <h4>Clatite cu Sirop</h4>
+                    <span> 25 RON</span>
+                </div>
+            </div>
+
+            <div class="highlight-card">
+                <img class="highlight-img" src="~/images/coffee.jpg">
+                <div class="highlight-desc">
+                    <h4>Cappuccino</h4>
+                    <span> 10 RON</span>
+                </div>
+            </div>
+
+            <div class="highlight-card">
+                <img class="highlight-img" src="~/images/pizza.jpg">
+                <div class="highlight-desc">
+                    <h4>Pizza</h4>
+                    <span> 35 RON</span>
+                </div>
+            </div>
+
+            <div class="highlight-card">
+                <img class="highlight-img" src="~/images/salad.jpg">
+                <div class="highlight-desc">
+                    <h4>Fresh Salad</h4>
+                    <span> 30 RON</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--login form -->
+    <div class="login">
+        <h1>Sign In</h1>
+        <div class="social-icons">
+            <a href="#" class="icon"><ion-icon name="logo-google"></ion-icon></a>
+            <a href="#" class="icon"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="#" class="icon"><ion-icon name="logo-apple"></ion-icon></a>
+        </div>
+        <div class="form-message-container">
+            <span>Or use your email and password</span>
+        </div>
+        <form asp-action="Login" method="post">
+            <input asp-for="UsernameOrEmail" id="username-input" placeholder="Username or Email" />
+            <br />
+            <input asp-for="Password" id="password-input" placeholder="Password" />
+            <br />
+            <button type="submit" class="login-btn" id="login-btn">Login</button>
+            <a href="#">Forgot Your Password?</a>
+        </form>
+        <p>Don't have an account? <a href="@Url.Action("Signup", "Account")"><ion-icon name="login-outline"></ion-icon>Signup</a></p>
+    </div>
+</div>

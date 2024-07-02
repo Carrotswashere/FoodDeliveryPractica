@@ -1,0 +1,133 @@
+﻿@model FoodDevRaloo.Models.SignupViewModel
+@{
+    ViewData["Title"] = "Signup Page";
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <title>Food Delivery </title>
+</head>
+
+<body>
+    <!--siderbar-->
+    <div class="sidebar">
+        <!--logo-->
+        <h1 class="logo">FoodTime</h1>
+        <div class="sidebar-menu">
+            <a href="#"><ion-icon name="storefront-outline"></ion-icon>Home</a>
+            <a href="#"><ion-icon name="restaurant-outline"></ion-icon>Restaurants</a>
+            <a href="#"><ion-icon name="person-outline"></ion-icon>My profile</a>
+            <a href="#"><ion-icon name="receipt-outline"></ion-icon>Orders</a>
+            <a href="#"><ion-icon name="chatbubbles-outline"></ion-icon>Contact Us</a>
+            <a href="#"><ion-icon name="settings-outline"></ion-icon>Settings</a>
+        </div>
+
+    </div>
+
+
+    <!--main-->
+    <div class="main">
+        <!--main navbar-->
+        <div style="display:flex; justify-content: right;">
+            <!-- menu when appear on mobile version-->
+            <ion-icon class="menu-toggle" name="menu-outline"></ion-icon>
+
+            <!-- profile icon on left side of navbar-->
+            <div class="profile"></div>
+            <a class="cart" href="#" onclick="toggleCartPopup()">
+                <ion-icon name="cart-outline"></ion-icon>
+                <span class="cart-count" id="cart-count">0</span>
+            </a>
+
+        </div>
+
+        <!--main-highlight-->
+        <div class="main-highlight">
+            <!--title section and arrow-->
+            <div class="main-header">
+                <h2 class="main-title">Recommendations</h2>
+                <div class="main-arrow">
+                    <ion-icon class="back" name="chevron-back-circle-outline"></ion-icon>
+                    <ion-icon class="next" name="chevron-forward-circle-outline"></ion-icon>
+                </div>
+            </div>
+            <!--highlight menu-->
+            <div class="highlight-wrapper">
+                <div class="highlight-card">
+                    <img class="highlight-img" src="images/pancakes.jpg">
+                    <div class="highlight-desc">
+                        <h4>Clatite cu Sirop</h4>
+                        <span> 25 RON</span>
+                    </div>
+                </div>
+
+                <div class="highlight-card">
+                    <img class="highlight-img" src="images/coffee.jpg">
+                    <div class="highlight-desc">
+                        <h4>Cappuccino</h4>
+                        <span> 10 RON</span>
+                    </div>
+                </div>
+
+                <div class="highlight-card">
+                    <img class="highlight-img" src="images/pizza.jpg">
+                    <div class="highlight-desc">
+                        <h4>Pizza</h4>
+                        <span> 35 RON</span>
+                    </div>
+                </div>
+
+                <div class="highlight-card">
+                    <img class="highlight-img" src="images/salad.jpg">
+                    <div class="highlight-desc">
+                        <h4>Fresh Salad</h4>
+                        <span> 30 RON</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="login">
+            <h1>Create An Account</h1>
+            <div class="social-icons">
+                <a href="#" class="icon"><ion-icon name="logo-google"></ion-icon></a>
+                <a href="#" class="icon"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="#" class="icon"><ion-icon name="logo-apple"></ion-icon></a>
+            </div>
+            <div class="form-message-container">
+                <span>Or use your email for registration</span>
+            </div>
+            <form asp-action="Signup" asp-controller="Account" method="post">
+                <input asp-for="FirstName" placeholder="First Name" />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+                <br />
+                <input asp-for="LastName" placeholder="Last Name" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+                <br />
+                <input asp-for="Username" placeholder="Username" />
+                <span asp-validation-for="Username" class="text-danger"></span>
+                <br />
+                <input asp-for="Email" placeholder="Email address" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+                <br />
+                <input asp-for="Password" placeholder="Password" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+                <br />
+                <input asp-for="ConfirmPassword" placeholder="Confirm Password" />
+                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                <br />
+                <button class="signup-btn" type="submit">Sign Up</button>
+            </form>
+            <p>Already have an account? <a href="@Url.Action("Login", "Account")"><ion-icon name="login-outline"></ion-icon>Login</a></p>
+        </div>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

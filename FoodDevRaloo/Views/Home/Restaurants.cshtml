@@ -1,0 +1,251 @@
+﻿@{
+    ViewData["Title"] = "Restaurants Page";
+}
+
+<div class="main-content">
+    <div class="main-navbar">
+        <ion-icon class="menu-toggle" name="menu-outline"></ion-icon>
+        <div class="search">
+            <input type="text" id="search-input" placeholder="What you want to eat?">
+            <button class="search-btn" id="search-btn">Search</button>
+        </div>
+        <div class="profile">
+            <a class="cart" href="#" onclick="toggleCartPopup()">
+                <ion-icon name="cart-outline"></ion-icon>
+                <span class="cart-count" id="cart-count">0</span>
+            </a>
+            <a class="user" href="#"><ion-icon name="person-outline"></ion-icon></a>
+        </div>
+    </div>
+
+    <div class="cart-popup">
+        <h4>Shopping Cart</h4>
+        <table id="cart-items">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>#</th>
+                    <th>Price(RON)</th>
+                    <th>Total(RON)</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <p>Total(RON) <span id="cart-total">0.00</span></p>
+        <a class="cart-close" onclick="closeCart()"><ion-icon name="close-circle-outline"></ion-icon></a>
+    </div>
+
+    <div class="main-highlight">
+        <div class="main-header">
+            <h2 class="main-title">Recommendations</h2>
+            <div class="main-arrow">
+                <ion-icon class="back" name="chevron-back-circle-outline"></ion-icon>
+                <ion-icon class="next" name="chevron-forward-circle-outline"></ion-icon>
+            </div>
+        </div>
+        <div class="highlight-wrapper">
+            <div class="highlight-card">
+                <img class="highlight-img" src="~/images/pancakes.jpg">
+                <div class="highlight-desc">
+                    <h4>Clatite cu Sirop</h4>
+                    <span> 25 RON</span>
+                </div>
+            </div>
+            <div class="highlight-card">
+                <img class="highlight-img" src="~/images/coffee.jpg">
+                <div class="highlight-desc">
+                    <h4>Cappuccino</h4>
+                    <span> 10 RON</span>
+                </div>
+            </div>
+            <div class="highlight-card">
+                <img class="highlight-img" src="~/images/pizza.jpg">
+                <div class="highlight-desc">
+                    <h4>Pizza</h4>
+                    <span> 35 RON</span>
+                </div>
+            </div>
+            <div class="highlight-card">
+                <img class="highlight-img" src="~/images/salad.jpg">
+                <div class="highlight-desc">
+                    <h4>Fresh Salad</h4>
+                    <span> 30 RON</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-menu">
+        <div class="dashboard-menu">
+            <a href="#" onclick="toggleFavoritesSection()">Favorites</a>
+            <a href="#">Best Seller</a>
+            <a href="#">Near Me</a>
+            <a href="#">Promotion</a>
+            <a href="#">Top Rated</a>
+            <a href="#">All</a>
+        </div>
+        <section class="categories">
+            <h2>Categorii</h2>
+            <ul class="categories-list">
+                <li class="category-item">
+                    <img src="https://images.deliveryhero.io/image/customer-assets-glovo/category_icons/66efdbb8a2cd8720b9e3ac78e37b92873c4ff458394335b92505e722e0181187?t=W3siYXV0byI6eyJxIjoiaGlnaCJ9fSx7InJlc2l6ZSI6eyJtb2RlIjoiZml0Iiwid2lkdGgiOjEyMCwiaGVpZ2h0IjoxMjB9fV0=" alt="Mâncare">
+                    <div>Mâncare</div>
+                </li>
+                <li class="category-item">
+                    <img src="https://images.deliveryhero.io/image/customer-assets-glovo/category_group_icons/f0cc6fa1321c8bb04336546c58b67ceedd25faa5ce258ef1e0a55cc2460a6e61?t=W3siYXV0byI6eyJxIjoiaGlnaCJ9fSx7InJlc2l6ZSI6eyJtb2RlIjoiZml0Iiwid2lkdGgiOjEyMCwiaGVpZ2h0IjoxMjB9fV0=" alt="Magazine și cadouri">
+                    <div>Magazine și cadouri</div>
+                </li>
+                <li class="category-item">
+                    <img src="https://images.deliveryhero.io/image/customer-assets-glovo/category_icons/7a567c46d294fb136199b5c1ae70155c51412c637756fe78cfd4cfe6478b30b7?t=W3siYXV0byI6eyJxIjoiaGlnaCJ9fSx7InJlc2l6ZSI6eyJtb2RlIjoiZml0Iiwid2lkdGgiOjEyMCwiaGVpZ2h0IjoxMjB9fV0=" alt="Băuturi și Tutun">
+                    <div>Băuturi și Tutun</div>
+                </li>
+                <li class="category-item">
+                    <img src="https://images.deliveryhero.io/image/customer-assets-glovo/category_icons/d6dc3a6aef94335ef66f9de4396eaafd4bba572a3b2c244f527e670e648a5dbe?t=W3siYXV0byI6eyJxIjoiaGlnaCJ9fSx7InJlc2l6ZSI6eyJtb2RlIjoiZml0Iiwid2lkdGgiOjEyMCwiaGVpZ2h0IjoxMjB9fV0=" alt="Supermarket">
+                    <div>Supermarket</div>
+                </li>
+            </ul>
+        </section>
+    </div>
+    <hr class="divider">
+    <div class="main-detail">
+        <h2 class="main-title">Restaurante care ti-ar putea placea</h2>
+        <div class="detail-wrapper">
+            <div class="detail-card">
+                <img class="detail-img" src="~/images/restaurant1.jpg">
+                <div class="detail-desc">
+                    <div class="detail-name">
+                        <h4>McDonald's</h4>
+                        <div class="store-info">
+                            <img data-v-9c3fa4d0="" src="https://images.deliveryhero.io/image/customer-assets-glovo/StoreInfoCard/EtaLight.png?t=W3siYXV0byI6eyJxIjoibG93In19XQ==" alt="store eta" data-test-id="store-eta-icon" width="32" height="32" class="store-eta__icon">
+                            <span data-v-9c3fa4d0="" data-test-id="store-eta-label" class="store-eta__label">20-30′</span>
+                        </div>
+                        <div class="store-info">
+                            <img data-v-40a3ad1a="" src="https://images.deliveryhero.io/image/customer-assets-glovo/StoreInfoCard/DeliveryFeeLight.png?t=W3siYXV0byI6eyJxIjoibG93In19XQ==" alt="store rating" data-test-id="service-fee-icon" width="32" height="32" class="service-fee__icon">
+                            <div data-v-40a3ad1a="" data-test-id="service-fee-label" class="service-fee__label dark-text">8,99&nbsp;RON</div>
+                        </div>
+                    </div>
+                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                </div>
+            </div>
+            <div class="detail-card">
+                <img class="detail-img" src="~/images/kfc.png">
+                <div class="detail-desc">
+                    <div class="detail-name">
+                        <h4>KFC</h4>
+                        <div class="store-info">
+                            <img data-v-9c3fa4d0="" src="https://images.deliveryhero.io/image/customer-assets-glovo/StoreInfoCard/EtaLight.png?t=W3siYXV0byI6eyJxIjoibG93In19XQ==" alt="store eta" data-test-id="store-eta-icon" width="32" height="32" class="store-eta__icon">
+                            <span data-v-9c3fa4d0="" data-test-id="store-eta-label" class="store-eta__label">20-30′</span>
+                        </div>
+                        <div class="store-info">
+                            <img data-v-40a3ad1a="" src="https://images.deliveryhero.io/image/customer-assets-glovo/StoreInfoCard/DeliveryFeeLight.png?t=W3siYXV0byI6eyJxIjoibG93In19XQ==" alt="store rating" data-test-id="service-fee-icon" width="32" height="32" class="service-fee__icon">
+                            <div data-v-40a3ad1a="" data-test-id="service-fee-label" class="service-fee__label dark-text">6,99&nbsp;RON</div>
+                        </div>
+                    </div>
+                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                </div>
+            </div>
+            <div class="detail-card">
+                <img class="detail-img" src="~/images/rest2.png">
+                <div class="detail-desc">
+                    <div class="detail-name">
+                        <h4>Restaurant Reyna</h4>
+                        <div class="store-info">
+                            <img data-v-9c3fa4d0="" src="https://images.deliveryhero.io/image/customer-assets-glovo/StoreInfoCard/EtaLight.png?t=W3siYXV0byI6eyJxIjoibG93In19XQ==" alt="store eta" data-test-id="store-eta-icon" width="32" height="32" class="store-eta__icon">
+                            <span data-v-9c3fa4d0="" data-test-id="store-eta-label" class="store-eta__label">60-70′</span>
+                        </div>
+                        <div class="store-info">
+                            <img data-v-40a3ad1a="" src="https://images.deliveryhero.io/image/customer-assets-glovo/StoreInfoCard/DeliveryFeeLight.png?t=W3siYXV0byI6eyJxIjoibG93In19XQ==" alt="store rating" data-test-id="service-fee-icon" width="32" height="32" class="service-fee__icon">
+                            <div data-v-40a3ad1a="" data-test-id="service-fee-label" class="service-fee__label dark-text">10,99&nbsp;RON</div>
+                        </div>
+                    </div>
+                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                </div>
+            </div>
+            <div class="detail-card">
+                <img class="detail-img" src="~/images/rest3jpg.jpg">
+                <div class="detail-desc">
+                    <div class="detail-name">
+                        <h4>Restaurant dasKino</h4>
+                        <div class="store-info">
+                            <img data-v-9c3fa4d0="" src="https://images.deliveryhero.io/image/customer-assets-glovo/StoreInfoCard/EtaLight.png?t=W3siYXV0byI6eyJxIjoibG93In19XQ==" alt="store eta" data-test-id="store-eta-icon" width="32" height="32" class="store-eta__icon">
+                            <span data-v-9c3fa4d0="" data-test-id="store-eta-label" class="store-eta__label">30-40′</span>
+                        </div>
+                        <div class="store-info">
+                            <img data-v-40a3ad1a="" src="https://images.deliveryhero.io/image/customer-assets-glovo/StoreInfoCard/DeliveryFeeLight.png?t=W3siYXV0byI6eyJxIjoibG93In19XQ==" alt="store rating" data-test-id="service-fee-icon" width="32" height="32" class="service-fee__icon">
+                            <div data-v-40a3ad1a="" data-test-id="service-fee-label" class="service-fee__label dark-text">4,99&nbsp;RON</div>
+                        </div>
+                    </div>
+                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                </div>
+            </div>
+            <div class="detail-card">
+                <img class="detail-img" src="~/images/rest4.png">
+                <div class="detail-desc">
+                    <div class="detail-name">
+                        <h4>Restaurant Konak</h4>
+                        <div class="store-info">
+                            <img data-v-9c3fa4d0="" src="https://images.deliveryhero.io/image/customer-assets-glovo/StoreInfoCard/EtaLight.png?t=W3siYXV0byI6eyJxIjoibG93In19XQ==" alt="store eta" data-test-id="store-eta-icon" width="32" height="32" class="store-eta__icon">
+                            <span data-v-9c3fa4d0="" data-test-id="store-eta-label" class="store-eta__label">20-30′</span>
+                        </div>
+                        <div class="store-info">
+                            <img data-v-40a3ad1a="" src="https://images.deliveryhero.io/image/customer-assets-glovo/StoreInfoCard/DeliveryFeeLight.png?t=W3siYXV0byI6eyJxIjoibG93In19XQ==" alt="store rating" data-test-id="service-fee-icon" width="32" height="32" class="service-fee__icon">
+                            <div data-v-40a3ad1a="" data-test-id="service-fee-label" class="service-fee__label dark-text">2,99&nbsp;RON</div>
+                        </div>
+                    </div>
+                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                </div>
+            </div>
+            <div class="detail-card">
+                <img class="detail-img" src="~/images/kaufland.png">
+                <div class="detail-desc">
+                    <div class="detail-name">
+                        <h4>Kaufland</h4>
+                        <div class="store-info">
+                            <img data-v-9c3fa4d0="" src="https://images.deliveryhero.io/image/customer-assets-glovo/StoreInfoCard/EtaLight.png?t=W3siYXV0byI6eyJxIjoibG93In19XQ==" alt="store eta" data-test-id="store-eta-icon" width="32" height="32" class="store-eta__icon">
+                            <span data-v-9c3fa4d0="" data-test-id="store-eta-label" class="store-eta__label">40-50′</span>
+                        </div>
+                        <div class="store-info">
+                            <img data-v-40a3ad1a="" src="https://images.deliveryhero.io/image/customer-assets-glovo/StoreInfoCard/DeliveryFeeLight.png?t=W3siYXV0byI6eyJxIjoibG93In19XQ==" alt="store rating" data-test-id="service-fee-icon" width="32" height="32" class="service-fee__icon">
+                            <div data-v-40a3ad1a="" data-test-id="service-fee-label" class="service-fee__label dark-text">15,99&nbsp;RON</div>
+                        </div>
+                    </div>
+                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                </div>
+            </div>
+            <div class="detail-card">
+                <img class="detail-img" src="~/images/rest6.png">
+                <div class="detail-desc">
+                    <div class="detail-name">
+                        <h4>Shaormeria Baneasa</h4>
+                        <div class="store-info">
+                            <img data-v-9c3fa4d0="" src="https://images.deliveryhero.io/image/customer-assets-glovo/StoreInfoCard/EtaLight.png?t=W3siYXV0byI6eyJxIjoibG93In19XQ==" alt="store eta" data-test-id="store-eta-icon" width="32" height="32" class="store-eta__icon">
+                            <span data-v-9c3fa4d0="" data-test-id="store-eta-label" class="store-eta__label">30-35′</span>
+                        </div>
+                        <div class="store-info">
+                            <img data-v-40a3ad1a="" src="https://images.deliveryhero.io/image/customer-assets-glovo/StoreInfoCard/DeliveryFeeLight.png?t=W3siYXV0byI6eyJxIjoibG93In19XQ==" alt="store rating" data-test-id="service-fee-icon" width="32" height="32" class="service-fee__icon">
+                            <div data-v-40a3ad1a="" data-test-id="service-fee-label" class="service-fee__label dark-text">7,99&nbsp;RON</div>
+                        </div>
+                    </div>
+                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                </div>
+            </div>
+            <div class="detail-card">
+                <img class="detail-img" src="~/images/rest7.jpg">
+                <div class="detail-desc">
+                    <div class="detail-name">
+                        <h4>Panda Express</h4>
+                        <div class="store-info">
+                            <img data-v-9c3fa4d0="" src="https://images.deliveryhero.io/image/customer-assets-glovo/StoreInfoCard/EtaLight.png?t=W3siYXV0byI6eyJxIjoibG93In19XQ==" alt="store eta" data-test-id="store-eta-icon" width="32" height="32" class="store-eta__icon">
+                            <span data-v-9c3fa4d0="" data-test-id="store-eta-label" class="store-eta__label">50-60′</span>
+                        </div>
+                        <div class="store-info">
+                            <img data-v-40a3ad1a="" src="https://images.deliveryhero.io/image/customer-assets-glovo/StoreInfoCard/DeliveryFeeLight.png?t=W3siYXV0byI6eyJxIjoibG93In19XQ==" alt="store rating" data-test-id="service-fee-icon" width="32" height="32" class="service-fee__icon">
+                            <div data-v-40a3ad1a="" data-test-id="service-fee-label" class="service-fee__label dark-text">4,99&nbsp;RON</div>
+                        </div>
+                    </div>
+                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

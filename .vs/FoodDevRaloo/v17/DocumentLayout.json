@@ -1,0 +1,582 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|c:\\users\\raloo\\source\\repos\\fooddevraloo\\fooddevraloo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|solutionrelative:fooddevraloo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|c:\\users\\raloo\\source\\repos\\fooddevraloo\\fooddevraloo\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|solutionrelative:fooddevraloo\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|c:\\users\\raloo\\source\\repos\\fooddevraloo\\fooddevraloo\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|solutionrelative:fooddevraloo\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|c:\\users\\raloo\\source\\repos\\fooddevraloo\\fooddevraloo\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|solutionrelative:fooddevraloo\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|c:\\users\\raloo\\source\\repos\\fooddevraloo\\fooddevraloo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|solutionrelative:fooddevraloo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|c:\\users\\raloo\\source\\repos\\fooddevraloo\\fooddevraloo\\models\\signupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|solutionrelative:fooddevraloo\\models\\signupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|c:\\users\\raloo\\source\\repos\\fooddevraloo\\fooddevraloo\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|solutionrelative:fooddevraloo\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|c:\\users\\raloo\\source\\repos\\fooddevraloo\\fooddevraloo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|solutionrelative:fooddevraloo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|c:\\users\\raloo\\source\\repos\\fooddevraloo\\fooddevraloo\\models\\addressviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|solutionrelative:fooddevraloo\\models\\addressviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|c:\\users\\raloo\\source\\repos\\fooddevraloo\\fooddevraloo\\models\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|solutionrelative:fooddevraloo\\models\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|c:\\users\\raloo\\source\\repos\\fooddevraloo\\fooddevraloo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|solutionrelative:fooddevraloo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|c:\\users\\raloo\\source\\repos\\fooddevraloo\\fooddevraloo\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|solutionrelative:fooddevraloo\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|c:\\users\\raloo\\source\\repos\\fooddevraloo\\fooddevraloo\\models\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|solutionrelative:fooddevraloo\\models\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|c:\\users\\raloo\\source\\repos\\fooddevraloo\\fooddevraloo\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|solutionrelative:fooddevraloo\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|c:\\users\\raloo\\source\\repos\\fooddevraloo\\fooddevraloo\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|solutionrelative:fooddevraloo\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|c:\\users\\raloo\\source\\repos\\fooddevraloo\\fooddevraloo\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|solutionrelative:fooddevraloo\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|c:\\users\\raloo\\source\\repos\\fooddevraloo\\fooddevraloo\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|solutionrelative:fooddevraloo\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|c:\\users\\raloo\\source\\repos\\fooddevraloo\\fooddevraloo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|solutionrelative:fooddevraloo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|c:\\users\\raloo\\source\\repos\\fooddevraloo\\fooddevraloo\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|solutionrelative:fooddevraloo\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|c:\\users\\raloo\\source\\repos\\fooddevraloo\\fooddevraloo\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|solutionrelative:fooddevraloo\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|c:\\users\\raloo\\source\\repos\\fooddevraloo\\fooddevraloo\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|solutionrelative:fooddevraloo\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|c:\\users\\raloo\\source\\repos\\fooddevraloo\\fooddevraloo\\views\\account\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|solutionrelative:fooddevraloo\\views\\account\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|c:\\users\\raloo\\source\\repos\\fooddevraloo\\fooddevraloo\\views\\home\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|solutionrelative:fooddevraloo\\views\\home\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|c:\\users\\raloo\\source\\repos\\fooddevraloo\\fooddevraloo\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|solutionrelative:fooddevraloo\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|c:\\users\\raloo\\source\\repos\\fooddevraloo\\fooddevraloo\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|solutionrelative:fooddevraloo\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|c:\\users\\raloo\\source\\repos\\fooddevraloo\\fooddevraloo\\views\\home\\signup.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|solutionrelative:fooddevraloo\\views\\home\\signup.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|c:\\users\\raloo\\source\\repos\\fooddevraloo\\fooddevraloo\\views\\home\\restaurants.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|solutionrelative:fooddevraloo\\views\\home\\restaurants.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|c:\\users\\raloo\\source\\repos\\fooddevraloo\\fooddevraloo\\views\\home\\restaurants.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|solutionrelative:fooddevraloo\\views\\home\\restaurants.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|c:\\users\\raloo\\source\\repos\\fooddevraloo\\fooddevraloo\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|solutionrelative:fooddevraloo\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|c:\\users\\raloo\\source\\repos\\fooddevraloo\\fooddevraloo\\controllers\\restaurantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|solutionrelative:fooddevraloo\\controllers\\restaurantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|c:\\users\\raloo\\source\\repos\\fooddevraloo\\fooddevraloo\\wwwroot\\js\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|solutionrelative:fooddevraloo\\wwwroot\\js\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|c:\\users\\raloo\\source\\repos\\fooddevraloo\\fooddevraloo\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|solutionrelative:fooddevraloo\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|c:\\users\\raloo\\source\\repos\\fooddevraloo\\fooddevraloo\\views\\home\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|solutionrelative:fooddevraloo\\views\\home\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|c:\\users\\raloo\\source\\repos\\fooddevraloo\\fooddevraloo\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|solutionrelative:fooddevraloo\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|c:\\users\\raloo\\source\\repos\\fooddevraloo\\fooddevraloo\\fooddevraloo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FD13E6E5-8B44-4752-B016-B3A882935EE6}|FoodDevRaloo\\FoodDevRaloo.csproj|solutionrelative:fooddevraloo\\fooddevraloo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "FoodDevRaloo\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "FoodDevRaloo\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-01T21:23:27.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Startup.cs",
+              "RelativeDocumentMoniker": "FoodDevRaloo\\Startup.cs",
+              "ToolTip": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Startup.cs",
+              "RelativeToolTip": "FoodDevRaloo\\Startup.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T20:06:21.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "FoodDevRaloo\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "FoodDevRaloo\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-01T21:04:37.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "FoodDevRaloo\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "FoodDevRaloo\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T19:34:07.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Program.cs",
+              "RelativeDocumentMoniker": "FoodDevRaloo\\Program.cs",
+              "ToolTip": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Program.cs",
+              "RelativeToolTip": "FoodDevRaloo\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T19:17:25.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ChangePasswordViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Models\\ChangePasswordViewModel.cs",
+              "RelativeDocumentMoniker": "FoodDevRaloo\\Models\\ChangePasswordViewModel.cs",
+              "ToolTip": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Models\\ChangePasswordViewModel.cs",
+              "RelativeToolTip": "FoodDevRaloo\\Models\\ChangePasswordViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T20:42:06.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "FoodDevRaloo\\Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "FoodDevRaloo\\Models\\LoginViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T19:25:11.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SignupViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Models\\SignupViewModel.cs",
+              "RelativeDocumentMoniker": "FoodDevRaloo\\Models\\SignupViewModel.cs",
+              "ToolTip": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Models\\SignupViewModel.cs",
+              "RelativeToolTip": "FoodDevRaloo\\Models\\SignupViewModel.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T18:52:07.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FoodDevRaloo\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FoodDevRaloo\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAE4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-01T21:28:05.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "FoodDevRaloo\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "FoodDevRaloo\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAIIAAAAAAAAAAADwv6QAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T18:56:36.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Views\\Account\\Profile.cshtml",
+              "RelativeDocumentMoniker": "FoodDevRaloo\\Views\\Account\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Views\\Account\\Profile.cshtml",
+              "RelativeToolTip": "FoodDevRaloo\\Views\\Account\\Profile.cshtml",
+              "ViewState": "AQIAAIkAAAAAAAAAAAAwwKwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-02T19:42:04.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FoodDevRaloo\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FoodDevRaloo\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAIAzwBkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T19:54:41.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "FoodDevRaloo\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "FoodDevRaloo\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-02T11:42:19.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "FoodDevRaloo\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "FoodDevRaloo\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T19:59:05.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddressViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Models\\AddressViewModel.cs",
+              "RelativeDocumentMoniker": "FoodDevRaloo\\Models\\AddressViewModel.cs",
+              "ToolTip": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Models\\AddressViewModel.cs",
+              "RelativeToolTip": "FoodDevRaloo\\Models\\AddressViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T20:43:00.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\appsettings.json",
+              "RelativeDocumentMoniker": "FoodDevRaloo\\appsettings.json",
+              "ToolTip": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\appsettings.json",
+              "RelativeToolTip": "FoodDevRaloo\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-01T19:05:36.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProfileViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Models\\ProfileViewModel.cs",
+              "RelativeDocumentMoniker": "FoodDevRaloo\\Models\\ProfileViewModel.cs",
+              "ToolTip": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Models\\ProfileViewModel.cs",
+              "RelativeToolTip": "FoodDevRaloo\\Models\\ProfileViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T20:12:10.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "app.js",
+              "DocumentMoniker": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\wwwroot\\js\\app.js",
+              "RelativeDocumentMoniker": "FoodDevRaloo\\wwwroot\\js\\app.js",
+              "ToolTip": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\wwwroot\\js\\app.js",
+              "RelativeToolTip": "FoodDevRaloo\\wwwroot\\js\\app.js",
+              "ViewState": "AQIAALUAAAAAAAAAAAAgwKsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-02T11:47:28.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "FoodDevRaloo\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "FoodDevRaloo\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-02T16:10:07.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FoodDevRaloo\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "FoodDevRaloo\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-01T20:31:44.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "FoodDevRaloo\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "FoodDevRaloo\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-01T21:23:24.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "FoodDevRaloo\\wwwroot\\css\\style.css",
+              "ToolTip": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "FoodDevRaloo\\wwwroot\\css\\style.css",
+              "ViewState": "AQIAAGkCAAAAAAAAAAAqwJICAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-02T18:36:38.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Models\\User.cs",
+              "RelativeDocumentMoniker": "FoodDevRaloo\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Models\\User.cs",
+              "RelativeToolTip": "FoodDevRaloo\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T19:34:25.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "FoodDevRaloo\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "FoodDevRaloo\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-02T18:01:56.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Signup.cshtml",
+              "DocumentMoniker": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Views\\Account\\Signup.cshtml",
+              "RelativeDocumentMoniker": "FoodDevRaloo\\Views\\Account\\Signup.cshtml",
+              "ToolTip": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Views\\Account\\Signup.cshtml",
+              "RelativeToolTip": "FoodDevRaloo\\Views\\Account\\Signup.cshtml",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAAAH4AAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-02T18:28:43.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "login.html",
+              "DocumentMoniker": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Views\\Home\\login.html",
+              "RelativeDocumentMoniker": "FoodDevRaloo\\Views\\Home\\login.html",
+              "ToolTip": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Views\\Home\\login.html",
+              "RelativeToolTip": "FoodDevRaloo\\Views\\Home\\login.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-07-02T11:41:56.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "FoodDevRaloo\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "FoodDevRaloo\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-02T11:48:09.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "restaurants.html",
+              "DocumentMoniker": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Views\\Home\\restaurants.html",
+              "RelativeDocumentMoniker": "FoodDevRaloo\\Views\\Home\\restaurants.html",
+              "ToolTip": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Views\\Home\\restaurants.html",
+              "RelativeToolTip": "FoodDevRaloo\\Views\\Home\\restaurants.html",
+              "ViewState": "AQIAADYBAAAAAAAAAAAuwFwBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-07-02T11:55:26.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "FoodDevRaloo.csproj",
+              "DocumentMoniker": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\FoodDevRaloo.csproj",
+              "RelativeDocumentMoniker": "FoodDevRaloo\\FoodDevRaloo.csproj",
+              "ToolTip": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\FoodDevRaloo.csproj",
+              "RelativeToolTip": "FoodDevRaloo\\FoodDevRaloo.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-01T19:51:16.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Restaurants.cshtml",
+              "DocumentMoniker": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Views\\Home\\Restaurants.cshtml",
+              "RelativeDocumentMoniker": "FoodDevRaloo\\Views\\Home\\Restaurants.cshtml",
+              "ToolTip": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Views\\Home\\Restaurants.cshtml",
+              "RelativeToolTip": "FoodDevRaloo\\Views\\Home\\Restaurants.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAPsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-02T11:55:43.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "FoodDevRaloo\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "FoodDevRaloo\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T19:46:31.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "signup.html",
+              "DocumentMoniker": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Views\\Home\\signup.html",
+              "RelativeDocumentMoniker": "FoodDevRaloo\\Views\\Home\\signup.html",
+              "ToolTip": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Views\\Home\\signup.html",
+              "RelativeToolTip": "FoodDevRaloo\\Views\\Home\\signup.html",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAuwHUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-07-02T17:55:36.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "RestaurantsController.cs",
+              "DocumentMoniker": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Controllers\\RestaurantsController.cs",
+              "RelativeDocumentMoniker": "FoodDevRaloo\\Controllers\\RestaurantsController.cs",
+              "ToolTip": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Controllers\\RestaurantsController.cs",
+              "RelativeToolTip": "FoodDevRaloo\\Controllers\\RestaurantsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T12:02:51.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "FoodDevRaloo\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "FoodDevRaloo\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-01T20:26:38.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Views\\Home\\index.html",
+              "RelativeDocumentMoniker": "FoodDevRaloo\\Views\\Home\\index.html",
+              "ToolTip": "C:\\Users\\Raloo\\source\\repos\\FoodDevRaloo\\FoodDevRaloo\\Views\\Home\\index.html",
+              "RelativeToolTip": "FoodDevRaloo\\Views\\Home\\index.html",
+              "ViewState": "AQIAAMoAAAAAAAAAAAAwwCYBAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-07-01T20:31:51.586Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

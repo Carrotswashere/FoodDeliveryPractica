@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Food Delivery</title>
+    <link rel="stylesheet" href="~/css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="sidebar">
+        <!-- Common sidebar content here -->
+        <h1 class="logo">FoodTime</h1>
+        <div class="sidebar-menu">
+            <a href="@Url.Action("Index", "Home")"><ion-icon name="storefront-outline"></ion-icon>Home</a>
+            <a href="@Url.Action("Restaurants", "Home")"><ion-icon name="restaurant-outline"></ion-icon>Restaurants</a>
+            <a href="@Url.Action("Profile", "Account")"><ion-icon name="person-outline"></ion-icon>My profile</a>
+            <a href="@Url.Action("Orders", "Home")"><ion-icon name="receipt-outline"></ion-icon>Orders</a>
+            <a href="@Url.Action("Contact", "Home")"><ion-icon name="chatbubbles-outline"></ion-icon>Contact Us</a>
+            <a href="@Url.Action("Settings", "Home")"><ion-icon name="settings-outline"></ion-icon>Settings</a>
+           @*  <a href="@Url.Action("Logout", "Account")"><ion-icon name="log-out-outline"></ion-icon>Logout</a> *@
+        </div>
+        <div class="sidebar-logout">
+            <a href="@Url.Action("Logout", "Account")"><ion-icon name="log-out-outline"></ion-icon>Logout</a>
+        </div>
+    </div>
+    <div class="main">
+        @RenderBody()
+    </div>
+    <footer class="footer">
+        <!-- Common footer content here -->
+        <div class="container">
+            <div class="bottom-footer">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-3 payment-options color-gray">
+                        <h5>Optiuni Plata</h5>
+                        <ul>
+                            <li><a href="#"> <img src="~/images/paypal.png" alt="Paypal"> </a></li>
+                            <li><a href="#"> <img src="~/images/mastercard.png" alt="Mastercard"> </a></li>
+                            <li><a href="#"> <img src="~/images/maestro.png" alt="Maestro"> </a></li>
+                            <li><a href="#"> <img src="~/images/stripe.png" alt="Stripe"> </a></li>
+                            <li><a href="#"> <img src="~/images/bitcoin.png" alt="Bitcoin"> </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 address color-gray">
+                        <h5>Contact</h5>
+                        <p>Strada:Aurel Vlaicu nr.15</p>
+                        <p>Phone: +40773753091</p>
+                        <p>foodtime@gmail.com</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-5 additional-info color-gray">
+                        <h5>Informatii aditionale</h5>
+                        <p>Alege unele dintre numeroasele noastre restaurante!</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-5 extra-links color-gray">
+                        <h5>Extra links</h5>
+                        <div class="terms">
+                            <a href="pagina-termeni-si-conditii.html">Termeni și condiții</a>
+                        </div>
+                        <div class="policy">
+                            <a href="politica-de-confidentialitate.html">Politica de confidentialitate</a>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-instagram"></a>
+                            <a href="#" class="fa fa-twitter"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="~/js/app.js"></script>
+</body>
+</html>

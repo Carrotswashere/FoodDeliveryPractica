@@ -1,0 +1,252 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- style -->
+    <link rel="stylesheet" href="~/css/style.css">
+    <!-- font-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <title>Food Delivery</title>
+</head>
+<body>
+    <!--sidebar-->
+    @* <div class="sidebar">
+        <!--logo-->
+        <h1 class="logo">FoodTime</h1>
+        <div class="sidebar-menu">
+            <a href="@Url.Action("Index", "Home")"><ion-icon name="storefront-outline"></ion-icon>Home</a>
+            <a href="@Url.Action("Restaurants", "Home")"><ion-icon name="restaurant-outline"></ion-icon>Restaurants</a>
+            <a href="@Url.Action("Profile", "Home")"><ion-icon name="person-outline"></ion-icon>My profile</a>
+            <a href="@Url.Action("Orders", "Home")"><ion-icon name="receipt-outline"></ion-icon>Orders</a>
+            <a href="@Url.Action("Contact", "Home")"><ion-icon name="chatbubbles-outline"></ion-icon>Contact Us</a>
+            <a href="@Url.Action("Settings", "Home")"><ion-icon name="settings-outline"></ion-icon>Settings</a>
+            <a href="@Url.Action("Logout", "Account")"><ion-icon name="log-out-outline"></ion-icon>Logout</a>
+        </div>
+    </div> *@
+
+
+    <!--main-->
+    <div class="main">
+        <!--main navbar-->
+        <div class="main-navbar">
+            <!-- menu when appear on mobile version-->
+            <ion-icon class="menu-toggle" name="menu-outline"></ion-icon>
+            <!--search bar -->
+            <div class="search">
+                <input type="text" id="search-input" placeholder="What you want to eat?">
+                <button class="search-btn" id="search-btn">Search</button>
+            </div>
+            <!-- profile icon on left side of navbar-->
+            <div class="profile">
+                <a class="cart" href="#" onclick="toggleCartPopup()">
+                    <ion-icon name="cart-outline"></ion-icon>
+                    <span class="cart-count" id="cart-count">0</span>
+                </a>
+                <a class="user" href="#"><ion-icon name="person-outline"></ion-icon></a>
+            </div>
+        </div>
+
+        <!--shopping cart section-->
+        <div class="cart-popup">
+            <h4>Shopping Cart</h4>
+            <table id="cart-items">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>#</th>
+                        <th>Price(RON)</th>
+                        <th>Total(RON)</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            <p>Total(RON) <span id="cart-total">0.00</span></p>
+            <a class="cart-close" onclick="closeCart()"><ion-icon name="close-circle-outline"></ion-icon></a>
+        </div>
+
+        <!--main-highlight-->
+        <div class="main-highlight">
+            <!--title section and arrow-->
+            <div class="main-header">
+                <h2 class="main-title">Recommendations</h2>
+                <div class="main-arrow">
+                    <ion-icon class="back" name="chevron-back-circle-outline"></ion-icon>
+                    <ion-icon class="next" name="chevron-forward-circle-outline"></ion-icon>
+                </div>
+            </div>
+            <!--highlight menu-->
+            <div class="highlight-wrapper">
+                <div class="highlight-card">
+                    <img class="highlight-img" src="~/images/pancakes.jpg">
+                    <div class="highlight-desc">
+                        <h4>Clatite cu Sirop</h4>
+                        <span> 25 RON</span>
+                    </div>
+                </div>
+
+                <div class="highlight-card">
+                    <img class="highlight-img" src="~/images/coffee.jpg">
+                    <div class="highlight-desc">
+                        <h4>Cappuccino</h4>
+                        <span> 10 RON</span>
+                    </div>
+                </div>
+
+                <div class="highlight-card">
+                    <img class="highlight-img" src="~/images/pizza.jpg">
+                    <div class="highlight-desc">
+                        <h4>Pizza</h4>
+                        <span> 35 RON</span>
+                    </div>
+                </div>
+
+                <div class="highlight-card">
+                    <img class="highlight-img" src="~/images/salad.jpg">
+                    <div class="highlight-desc">
+                        <h4>Fresh Salad</h4>
+                        <span> 30 RON</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--main menus/orders-->
+        <div class="main-menu">
+            <!--filter selection-->
+            <div class="dashboard-menu">
+                <a href="#" onclick="toggleFavoritesSection()">Favorites</a>
+                <a href="#">Best Seller</a>
+                <a href="#">Near Me</a>
+                <a href="#">Promotion</a>
+                <a href="#">Top Rated</a>
+                <a href="#">All</a>
+            </div>
+
+            <div class="main-header">
+                <h2 class="main-title">Menu<br>Category</h2>
+                <div class="main-arrow">
+                    <ion-icon class="back-menus" name="chevron-back-circle-outline"></ion-icon>
+                    <ion-icon class="next-menus" name="chevron-forward-circle-outline"></ion-icon>
+                </div>
+            </div>
+            <div class="filter-wrapper">
+                <!-- Add your filter categories here -->
+            </div>
+        </div>
+        <hr class="divider">
+
+        <!--list of food menus-->
+        <div class="main-detail">
+            <h2 class="main-title">Choose Order</h2>
+            <div class="detail-wrapper">
+                <div class="detail-card">
+                    <img class="detail-img" src="~/images/images-banner.jpg">
+                    <div class="detail-desc">
+                        <div class="detail-name">
+                            <h4>Paste Carbonara</h4>
+                            <p class="detail-sub">Restaurant Reyna</p>
+                            <p class="price">40 RON</p>
+                            <button class="add-to-cart-btn" onclick="addToCart('Paste Carbonara', 40.00)">Add to Cart</button>
+                        </div>
+                        <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="detail-card">
+                    <img class="detail-img" src="~/images/images1.jpg">
+                    <div class="detail-desc">
+                        <div class="detail-name">
+                            <h4>Coaste BBQ cu Cartofi Prajiti</h4>
+                            <p class="detail-sub">dasKino</p>
+                            <p class="price">57.80 RON</p>
+                            <button class="add-to-cart-btn" onclick="addToCart('Coaste BBQ cu Cartofi Prajiti', 57.80)">Add to Cart</button>
+                        </div>
+                        <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="detail-card">
+                    <img class="detail-img" src="~/images/images2.jpg">
+                    <div class="detail-desc">
+                        <div class="detail-name">
+                            <h4>Burger cu Cartofi Prajiti</h4>
+                            <p class="detail-sub">Restaurant Konak</p>
+                            <p class="price">55.50 RON</p>
+                            <button class="add-to-cart-btn" onclick="addToCart('Burger cu Cartofi Prajiti', 55.50)">Add to Cart</button>
+                        </div>
+                        <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="detail-card">
+                    <img class="detail-img" src="~/images/images3.jpg">
+                    <div class="detail-desc">
+                        <div class="detail-name">
+                            <h4>Salata Fresh cu Capsuni</h4>
+                            <p class="detail-sub">dasKino</p>
+                            <p class="price">30.80 RON</p>
+                            <button class="add-to-cart-btn" onclick="addToCart('Salata Fresh cu Capsuni', 30.80)">Add to Cart</button>
+                        </div>
+                        <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="detail-card">
+                    <img class="detail-img" src="~/images/images4.jpg">
+                    <div class="detail-desc">
+                        <div class="detail-name">
+                            <h4>Paella cu Fructe de Mare</h4>
+                            <p class="detail-sub">Restaurant Reyna</p>
+                            <p class="price">75.90 RON</p>
+                            <button class="add-to-cart-btn" onclick="addToCart('Paella cu Fructe de Mare', 75.90)">Add to Cart</button>
+                        </div>
+                        <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="detail-card">
+                    <img class="detail-img" src="~/images/images5.jpg">
+                    <div class="detail-desc">
+                        <div class="detail-name">
+                            <h4>Cheesy Sandwich</h4>
+                            <p class="detail-sub">dasKino</p>
+                            <p class="price">20.10 RON</p>
+                            <button class="add-to-cart-btn" onclick="addToCart('Cheesy Sandwich', 20.10)">Add to Cart</button>
+                        </div>
+                        <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="detail-card">
+                    <img class="detail-img" src="~/images/images6.jpg">
+                    <div class="detail-desc">
+                        <div class="detail-name">
+                            <h4>Supa Crema de Dovleac</h4>
+                            <p class="detail-sub">Restaurant Reyna</p>
+                            <p class="price">27.80 RON</p>
+                            <button class="add-to-cart-btn" onclick="addToCart('Supa Crema de Dovleac', 27.80)">Add to Cart</button>
+                        </div>
+                        <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="detail-card">
+                    <img class="detail-img" src="~/images/wine.jpg">
+                    <div class="detail-desc">
+                        <div class="detail-name">
+                            <h4>Vin Spumant</h4>
+                            <p class="detail-sub">dasKino</p>
+                            <p class="price">90 RON</p>
+                            <button class="add-to-cart-btn" onclick="addToCart('Vin Spumant', 90.00)">Add to Cart</button>
+                        </div>
+                        <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="~/js/app.js"></script>
+</html>
